@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem;
 }
 
 a,
@@ -652,10 +653,12 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    /* _____________________________________________________________________________________________________ */
 }
 
 .container {
     max-width: 1000px;
+    /* _____________________________________________________________________________________________________ */
 }
 
 .hero-bloc-text {
@@ -677,17 +680,12 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1rem;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -704,13 +702,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
 h3 {
-    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -845,6 +837,7 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
+        /* _____________________________________________________________________________________________________ */
     }
 }
 
@@ -941,6 +934,7 @@ h4 {
         border-bottom-color: transparent;
         border-right-color: transparent;
         border-left-color: transparent;
+        /* _____________________________________________________________________________________________________ */
     }
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
