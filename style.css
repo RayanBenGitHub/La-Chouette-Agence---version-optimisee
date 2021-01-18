@@ -91,11 +91,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -765,12 +760,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #561d02;
+    background: #1f1f1f;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #050504!important;
+    background: #442400!important;
     color: #FFFFFF!important;
 }
 
@@ -1022,6 +1017,13 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.h2-contact{
+    background-color:#1f1f1f;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 #bloc-7{
     width: 100%;
