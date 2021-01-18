@@ -507,7 +507,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgb(85, 85, 85);
     box-shadow: none;
 }
 
@@ -653,10 +653,7 @@ a {
     font-family: "helvetica";
 }
 
-.container {
-    max-width: 1000px;
-    /* _____________________________________________________________________________________________________ */
-}
+
 
 .hero-bloc-text {
     font-size: 38px;
@@ -1018,7 +1015,32 @@ h4 {
         height: 320px;
     }
 }
+.width100{
+    width: 100%;
+}
+.tout-centrer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bloc-7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-group{
+    margin-bottom: 2%;
+}
 
+label{
+    font-weight: 700;
+}
+.italique{
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #484848;
+}
 .footer-text {
     display: flex;
     justify-content: center;
