@@ -678,7 +678,8 @@
 }
 
 .fa-retweet:before {
-    content: "\f079"
+    content: "\f079";
+    color: #FFFF
 }
 
 .fa-shopping-cart:before {
@@ -707,11 +708,13 @@
 }
 
 .fa-twitter-square:before {
-    content: "\f081"
+    content: "\f081";
+    color: #FFFF
 }
 
 .fa-facebook-square:before {
-    content: "\f082"
+    content: "\f082";
+    color: #FFFF
 }
 
 .fa-camera-retro:before {
@@ -800,12 +803,14 @@
 }
 
 .fa-twitter:before {
-    content: "\f099"
+    content: "\f099";
+    color: #FFFF
 }
 
 .fa-facebook-f:before,
 .fa-facebook:before {
-    content: "\f09a"
+    content: "\f09a";
+    color: #FFFF
 }
 
 .fa-github:before {
@@ -1576,7 +1581,8 @@
 }
 
 .fa-instagram:before {
-    content: "\f16d"
+    content: "\f16d";
+    color: #FFFF
 }
 
 .fa-flickr:before {
@@ -1636,7 +1642,8 @@
 }
 
 .fa-dribbble:before {
-    content: "\f17d"
+    content: "\f17d";
+    color: #FFFF
 }
 
 .fa-skype:before {
@@ -2325,7 +2332,8 @@
 }
 
 .fa-facebook-official:before {
-    content: "\f230"
+    content: "\f230";
+    color: #FFFF
 }
 
 .fa-pinterest-p:before {
