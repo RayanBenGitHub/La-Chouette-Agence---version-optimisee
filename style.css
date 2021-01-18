@@ -1033,6 +1033,10 @@ h4 {
     color: #FFFFFF;
     font-size: 1.2rem;
 }
+.footerpage2{
+    font-size: 1rem;
+    justify-content: space-between;
+}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
