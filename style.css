@@ -232,7 +232,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(187, 187, 187, 0.822);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -651,9 +651,6 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
-    /* _____________________________________________________________________________________________________ */
 }
 
 .container {
@@ -763,7 +760,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#313131;
 }
 
 .tc-white {
@@ -1022,6 +1019,20 @@ h4 {
     }
 }
 
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding-top: 3%;
+
+}
+.footer-text p{
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
