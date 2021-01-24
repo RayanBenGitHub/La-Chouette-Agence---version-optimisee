@@ -40,8 +40,10 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bloc-lg {
@@ -658,7 +660,7 @@ a {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .tight-width-whitespace {
@@ -677,7 +679,6 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
 }
 
 h3 {
@@ -795,69 +796,6 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
-@media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .bloc.full-width-bloc,
-    .bloc-tile-2.full-width-bloc .container,
-    .bloc-tile-3.full-width-bloc .container,
-    .bloc-tile-4.full-width-bloc .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
-        max-width: 80%
-    }
-    .nav-center.navbar .nav {
-        max-width: 100%
-    }
-}
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
-    .b-parallax {
-        background-attachment: scroll;
-    }
-    .page-container,
-    #hero-bloc {
-        overflow-x: hidden;
-        position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-    .bloc-group,
-    .bloc-group .bloc {
-        display: block;
-        width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-}
 
 @media (max-width: 767px) {
     .page-container {
@@ -911,7 +849,6 @@ h4 {
         border-bottom-color: transparent;
         border-right-color: transparent;
         border-left-color: transparent;
-        /* _____________________________________________________________________________________________________ */
     }
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
@@ -1008,8 +945,6 @@ h4 {
 }
 .h2-contact{
     background-color:#1f1f1f;
-    margin-left: 20%;
-    margin-right: 20%;
     padding-top: 4%;
     padding-bottom: 4%;
 }
