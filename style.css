@@ -660,7 +660,7 @@ a {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .tight-width-whitespace {
@@ -947,6 +947,8 @@ h4 {
     background-color:#1f1f1f;
     padding-top: 4%;
     padding-bottom: 4%;
+    margin-left: -3%;
+    margin-right: -3%;
 }
 #bloc-7{
     width: 100%;
