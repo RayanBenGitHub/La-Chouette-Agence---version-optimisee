@@ -660,7 +660,7 @@ a {
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 
 .tight-width-whitespace {
@@ -997,4 +997,7 @@ label{
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.fontsize {
+    font-size: 1.8rem;
 }
