@@ -995,3 +995,11 @@ label{
         text-align: center;
     }
 }
+.article-noir{
+    background-color: #1f1f1f;
+    margin-top: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
