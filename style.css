@@ -1,7 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
-    background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -107,7 +105,7 @@ a:hover {
 }
 
 .d-bloc .a-btn,
-.d-bloc .navbar a,
+.d-bloc,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
 .d-bloc a .icon-md,
@@ -205,7 +203,6 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
@@ -275,10 +272,19 @@ a:hover {
 }
 
 .navbar {
-    margin-bottom: 0;
+    margin:0%;
+    padding-top: 1%;
+    margin-top: -2%;
     z-index: 1;
+    background-color: #FFFFFF;
+    color: black;
+    width: 100%;
+    border-radius: 0%;
+    
 }
-
+.navbar a {
+    color: black;
+}
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -304,7 +310,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    margin-right:5%;
     float: right;
     z-index: 1;
 }
@@ -312,7 +318,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -678,7 +684,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    width: 100%;
 }
 
 h3 {
@@ -695,6 +701,7 @@ h3 {
 
 h1 {
     color: #333333!important;
+    background-color: #0000004d;
 }
 
 h4 {
@@ -972,8 +979,13 @@ label{
     font-size: 1rem;
     flex-direction: column;
     color: #FFFFFF;
-    padding-top: 3%;
+    padding-top: 2%;
+    text-align: center;
+    
 
+}
+.footer{
+    margin: 0;
 }
 .footer-text p{
     color: #FFFFFF;
@@ -995,6 +1007,11 @@ label{
         text-align: center;
     }
 }
-.fontsize {
-    font-size: 1.8rem;
+.article-noir{
+    background-color: #1f1f1f;
+    margin-top: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
 }
