@@ -991,7 +991,7 @@ label{
     color: #FFFFFF;
     font-size: 1.2rem;
 }
-.footerpage2{
+.footercontact{
     font-size: 1rem;
     justify-content: space-between;
 }
@@ -1014,4 +1014,15 @@ label{
     padding-bottom: 3%;
     padding-right: 15%;
     padding-left: 15%;
+}
+
+.socialwidth {
+    width: 5%;
+}
+
+.socialposition {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
