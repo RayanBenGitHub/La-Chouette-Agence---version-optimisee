@@ -694,11 +694,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-    background-color: #e8e8e82e;
-}
-
 h4 {
     color: #333333!important;
 }
@@ -1029,4 +1024,8 @@ textarea {
 .index-h1 {
     color: #f3976c;
     background-color: black;
+}
+.contact-h1 {
+    color: #333333!important;
+    background-color: #000000b0;
 }
