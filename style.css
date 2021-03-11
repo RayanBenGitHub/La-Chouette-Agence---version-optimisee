@@ -1026,3 +1026,7 @@ textarea {
     resize: vertical;
     width: 70%;
 }
+.index-h1 {
+    color: #f3976c;
+    background-color: black;
+}
