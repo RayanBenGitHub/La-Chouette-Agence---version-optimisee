@@ -52,9 +52,6 @@ a:hover {
     padding: 50px;
 }
 
-.bloc-sm {
-    padding: 20px 50px;
-}
 
 .bg-center,
 .bg-l-edge,
@@ -118,7 +115,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -701,7 +698,7 @@ h3 {
 
 h1 {
     color: #333333!important;
-    background-color: #0000004d;
+    background-color: #e8e8e82e;
 }
 
 h4 {
@@ -749,16 +746,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #1f1f1f;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #ffffff!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
-    background: #1f1f1f;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -817,8 +814,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 2%!important;
+        padding-right: 2%!important;
     }
     .navbar .nav {
         padding-top: 0;
@@ -892,7 +889,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 8% 0;
     }
     .bloc-sm,
     .bloc-md {
@@ -948,7 +945,7 @@ h4 {
     align-items: center;
 }
 .h2-contact{
-    background-color:#1f1f1f;
+    background-color:#f3976c;
     padding-top: 4%;
     padding-bottom: 4%;
     margin-left: -3%;
@@ -981,17 +978,18 @@ label{
     color: #FFFFFF;
     padding-top: 2%;
     text-align: center;
-    
+    overflow: hidden;
+    word-break: break-all;
 
 }
 .footer{
     margin: 0;
 }
 .footer-text p{
-    color: #FFFFFF;
+    color: #000000;
     font-size: 1.2rem;
 }
-.footerpage2{
+.footercontact{
     font-size: 1rem;
     justify-content: space-between;
 }
@@ -1000,6 +998,7 @@ label{
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 
 @media (max-width: 767px) {
@@ -1014,4 +1013,18 @@ label{
     padding-bottom: 3%;
     padding-right: 15%;
     padding-left: 15%;
+}
+
+
+
+.socialposition {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    resize: vertical;
+    width: 70%;
 }
